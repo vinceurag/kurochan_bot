@@ -1,8 +1,8 @@
 use Mix.Config
 
-config :nostrum,
+config :alchemy,
   token: "test",
-  youtubedl: "/usr/local/bin/youtube-dl",
-  ffmpeg: "/usr/local/bin/ffmpeg"
+  youtube_dl_path: "/usr/local/bin/youtube-dl",
+  ffmpeg_path: "/usr/local/bin/ffmpeg"
 
 import_config "secrets.exs"
